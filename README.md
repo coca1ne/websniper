@@ -1,0 +1,60 @@
+WebSniper Framework
+=====================
+
+Description
+----------------
+WebSniper - Web Application Security Testing Framework, the framework is built under Python language, the framework will act as supplementary tool without needing to launch third-party tools, the framework can be used by testers during their manual assessment. The framework has a metasploit-like-console which testers can run different modules easily.
+
+Contributors
+----------------
+
+semprix / gecko - Dax Labrador - core dev
+
+shipcod3 - Jay Turla - contributor
+
+napz - Harris Soleminio - contributor
+
+medz - Medz Barao - contributor
+
+Directory structure
+-------------------
+
+	[root]
+	| - auxiliary
+    | - config
+    | - data
+    | - modules
+    |  `- recon
+    |  `- discovery
+    |  `- exploitation 
+    | - unittest
+    |  `- modules 
+    |      `- recon
+    |	   `- crypto
+    |  `- auxiliary
+    |  `- exploits
+    |
+    `- websniper.py (core)
+    `- bootstrap.py (dependency)
+	`- Changelog
+	`- Readme
+
+Python Dependencies
+-------------------
+Run bootstrap.py to see all necessary python dependencies in order for WebSniper to run properly.
+	
+Coding Standards
+-------------------
+Maven Convention - http://maven.apache.org/developers/conventions/code.html
+
+Python PEP - http://www.python.org/dev/peps/pep-0008/#code-lay-out
+
+Install
+------------------
+
+Python2.7 should be present on the system
+
+1. (Install Option #1) Using git - git clone git@github.com:semprix/WebSniper.git
+2. (Install Option #2) Downloading release - download at https://bitbucket.org/semprix/websniper/get/ea6ad2e549a3.zip
+3. Run bootstrap.py - this will check all python module dependencies
+4. Run websniper.py - python websniper.py
