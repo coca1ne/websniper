@@ -55,6 +55,6 @@ Install
 Python2.7 should be present on the system
 
 1. (Install Option #1) Using git - git clone git@github.com:semprix/WebSniper.git
-2. (Install Option #2) Downloading release - download at https://bitbucket.org/semprix/websniper/get/ea6ad2e549a3.zip
+2. (Install Option #2) Downloading master - download at https://github.com/semprix/websniper/archive/master.zip
 3. Run bootstrap.py - this will check all python module dependencies
 4. Run websniper.py - python websniper.py
