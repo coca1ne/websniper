@@ -11,7 +11,7 @@
 # description:       WebSniper Framework main
 # author:            @semprix, @shipcod3, @napz, @medz
 # platform:          Python
-# version:           1.0rc1
+# version:           1.0
 
 import core, helper
 import time, signal

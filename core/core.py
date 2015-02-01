@@ -40,4 +40,4 @@ class funcs:
     def loopz(self):
         mgr = output_mgr.console_print()
         print dir(mgr)
-        mgr.out("FOO")
+        mgr.out("WebSniper")

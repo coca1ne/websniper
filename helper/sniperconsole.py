@@ -20,7 +20,7 @@ class consoleprint:
         print""
         print('\033[94m****************************************** \033[0m')
         print('\033[94mDevs: @semprix, @shipcod3, @napz, @medz    \033[0m')
-        print('\033[94mVersion: v1.0rc2\033[0m')
+        print('\033[94mVersion: v1.0\033[0m')
         print('\033[94m****************************************** \033[0m')
         print ""
 
