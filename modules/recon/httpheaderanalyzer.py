@@ -13,7 +13,7 @@ class httpheaderanalyzer:
 		print 'Set RHOST (use http(s)//domain.tld format):',
 		rhost = raw_input()
 		print ""
-		print "[***] Starting header analysis......"
+		print "[*] Starting header analysis..."
 		print ""
 		
 		try:
@@ -65,7 +65,7 @@ class httpheaderanalyzer:
 		 else:
 			print '>> ' + grabxcontent + ' *flag found (not vulnerable)*'
 		 print ""
-		 print "[+++] Checking for SSL settings"
+		 print "[+] Checking for SSL settings"
 		 print ""
 		 time.sleep(2)
 		 grabhsts = response.info().getheader('Strict-Transport-Security')
@@ -77,10 +77,10 @@ class httpheaderanalyzer:
 		
 		except Exception:
 			pass
-			print "[!!!] Host not reachable"
+			print "[!] Host not reachable"
 	
 		print ""
-		print'[###] Done!!!'
+		print'[#] Done!!!'
 		print ""
 		time.sleep(3)
 

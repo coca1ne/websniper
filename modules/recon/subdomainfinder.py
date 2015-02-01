@@ -67,7 +67,7 @@ def subdomainfinder():
 	print 'Set RHOST (use TLD):',
 	rhost = raw_input()
 	print ""
-	print "[****] Starting subdomain finder......"
+	print "[*] Starting subdomain finder..."
 	print ""
 	results = []
 	w = Webdog()
@@ -93,7 +93,7 @@ def subdomainfinder():
 		print "[+]"+r
 		time.sleep(2)
 		print ""
-        print "[####] Done!!!"	
+        print "[#] Done!!!"	
         print ""
         time.sleep(3)
      

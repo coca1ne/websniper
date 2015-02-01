@@ -17,7 +17,7 @@ class metaextractor:
     print 'Set RPORT:',
     rport = raw_input()
     print ""
-    print "[****] Starting meta extractor......"
+    print "[*] Starting meta extractor..."
     print ""
     time.sleep(3)
     
@@ -33,7 +33,7 @@ class metaextractor:
 	print etree.tostring( i )
      except Exception:
        pass
-       print "[!!!] Host not reachable"
+       print "[!] Host not reachable"
        print ""
     
     elif rport == '443':
@@ -48,13 +48,13 @@ class metaextractor:
 	print etree.tostring( i )	
      except Exception:
 	pass
-	print "[!!!] Host not reachable"
+	print "[!] Host not reachable"
 	print ""
     
     else:
-	   print "[!!!!] Error extracting meta"
+	   print "[!] Error extracting meta"
     
-    print'[####] Done!!!'
+    print'[#] Done!!!'
     print ""
     time.sleep(3)
 

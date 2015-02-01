@@ -17,10 +17,10 @@ class urlcrawler:
     print 'Set RPORT:',
     rport = raw_input()
     print ""
-    print "[****] Starting URL crawler......"
+    print "[*] Starting URL crawler..."
     time.sleep(3)
     if rport == '80':
-        print (' [+] Crawling unauthenticated HTTP')
+        print ('[+] Crawling unauthenticated HTTP')
         req  = requests.get("http://" + rhost)
         data = req.text
         soup = BeautifulSoup(data)
@@ -29,7 +29,7 @@ class urlcrawler:
         f.close()
 
     elif rport == '443':
-        print (' [+] Crawling unauthenticated HTTPS')
+        print ('[+] Crawling unauthenticated HTTPS')
         req  = requests.get("https://" + rhost)
         data = req.text
         soup = BeautifulSoup(data)
@@ -38,7 +38,7 @@ class urlcrawler:
         f.close()
 
     else:
-        print '[!!!!] Error performing url crawl'
+        print '[!] Error performing url crawl'
 
-    print'[==] Done...'
+    print'[#] Done...'
 time.sleep(3)

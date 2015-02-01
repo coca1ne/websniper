@@ -23,7 +23,7 @@ class vhostfinder:
             ip=socket.gethostbyname(domain)
             query = "ip:"+ip+""
             search_type = 'Web'
-            print '[****] Starting vhost finder......'
+            print '[*] Starting vhost finder...'
             time.sleep (3)
             print ''
             print '['+domain+'] resolves to: ['+ip+']'
@@ -57,9 +57,9 @@ class vhostfinder:
                     print [x+1],domain    
 
         except:
-            print '[!!!!] Error unable to obtain IP of the domain',domain 
+            print '[!] Error unable to obtain IP of the domain',domain 
 
-        print'[####] Done!!!'
+        print'[#] Done!!!'
         print ''
         time.sleep(3)
  
