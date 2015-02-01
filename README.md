@@ -42,6 +42,16 @@ Directory structure
 Python Dependencies
 -------------------
 Run bootstrap.py to see all necessary python dependencies in order for WebSniper to run properly.
+
+How to contribute?
+-------------------
+1. (Clone Us) Using git - git clone git@github.com:semprix/WebSniper.git
+2. Check-out the Issues page - https://github.com/semprix/websniper/issues
+3. Modify / Hack existing modules
+4. Submit new modules
+    - create your module at https://github.com/semprix/websniper/tree/master/unittest
+    - Send us a Pull Request
+5. Happy hacking!!!
 	
 Coding Standards
 -------------------
