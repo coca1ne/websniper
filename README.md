@@ -8,7 +8,7 @@ WebSniper - Web Application Security Testing Framework, the framework is built u
 Contributors
 ----------------
 
-semprix / gecko - Dax Labrador - core dev
+semprix - Dax Labrador - contributor
 
 shipcod3 - Jay Turla - contributor
 
