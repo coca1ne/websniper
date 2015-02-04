@@ -92,6 +92,11 @@ class wsniper_main_console(wsniper_cmd.Cmd):
         self.prefunc = "vulnerabilityconsole_"
         return
 
+    def modulesconsole_exploits(self, ignored):
+        self.prompt = "websniper>modules>exploits>"
+        self.prefunc = "exploitsconsole_"
+        return
+
     def modulesconsole_list(self, ignored):
         wsniper_show.listmods()
         return
@@ -132,5 +137,18 @@ class wsniper_main_console(wsniper_cmd.Cmd):
         wsniper_func.run_module(data)
         return
 
+    # exploits specific    
+
+    def exploitsconsole_run(self, module_name):
+        data = {}
+        data['type'] = 'exploits'
+        data['name'] = module_name
+        wsniper_func.run_module(data)
+        return
+
+    def exploitsconsole_back(self, ignored):
+        self.main_modules("*")
+
 if __name__ == '__main__':
     wsniper_main_console().cmdloop()
+    
