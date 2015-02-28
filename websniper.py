@@ -136,6 +136,9 @@ class wsniper_main_console(wsniper_cmd.Cmd):
         data['name'] = module_name
         wsniper_func.run_module(data)
         return
+        
+    def vulnerabilityconsole_back(self, ignored):
+        self.main_modules("*")
 
     # exploits specific    
 
