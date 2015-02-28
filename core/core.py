@@ -10,7 +10,7 @@ class funcs:
     def __init__(self):
         print "WebSniper Initializing..."
         time.sleep(2)
-        self.module_types = ['recon', 'discovery']
+        self.module_types = ['recon', 'discovery', 'exploits']
         self.modules_list = {}
 
 	def list_modules(self):
